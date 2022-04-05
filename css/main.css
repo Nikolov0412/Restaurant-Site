@@ -1,0 +1,136 @@
+.header{
+    background: linear-gradient(to right, rgba(26,24,20, 0.3) 0 100%),url(../images/bg2.jpg) ;
+
+    max-width: 100%;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;  
+    height: calc(100vh);
+}
+* {
+    margin: 0;
+    padding: 0;
+
+}
+html{
+  background-color: #1a1814;
+    scroll-behavior: smooth;
+
+}
+.navbar{
+  position: fixed; 
+  
+  width: 100%; 
+  transition: top 0.3s; 
+  transition: all .5s ease-in-out;
+}
+.scrolled {
+    background-color: #12100E !important;
+    transition: background-color 200ms linear;
+  }
+  #navLink{
+    margin-top: 13px;
+    margin-left: 20px;
+  }
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+#logoWrapper{
+    position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 20px;
+}
+  #arrowD{
+margin-left: 240px;
+margin-top: 240px;
+  }
+  .arrow.down {
+  
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+
+  }
+  
+section.page{
+    min-height: 1000px;
+    
+}
+#about{
+background-image:linear-gradient(to right, rgba(26,24,20, 0.6) 0 100%),url(../images/section1.jpg);
+background-size: cover;
+}
+@media only screen and (max-width: 530px) {
+    img{
+        width: 330px;
+    }
+    #arrowD{
+        margin-left: 150px;
+    }
+    #navLogo{
+      display:none
+    }
+    .column {
+      padding-top: 180px;
+      float: left;
+      width: 50%;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    #section1IMG{
+      padding-top: 210px;
+      max-width:100%;
+  max-height:100%;
+ 
+  
+    }
+    #content{
+     
+      text-align: center;
+      color:white;
+      font-size: small;
+    }
+  }
+
+  .column {
+    padding-top: 180px;
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+  
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #section1IMG{
+    max-width:100%;
+max-height:100%;
+padding-left: 30px;
+
+  }
+  #content{
+    padding-top: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    color:white;
+    
+  }
