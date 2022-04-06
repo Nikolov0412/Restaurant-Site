@@ -1,0 +1,55 @@
+#menu{
+    padding-top: 40px;
+  }
+  .sides{
+    background-color: white;
+  }
+  .dishName{
+padding: 32px;
+font-size: x-large;
+  }
+  .dishDesc{
+    font-size:larger;
+   padding-left: 32px;
+   margin-top: -10px;
+   color: grey;
+
+   padding-bottom: 20px;
+  }
+  .price{
+    border-radius: 10px;
+    background: darkgray;
+    padding: 7px;
+    width: 40px;
+    height: 20px;
+    float: right;
+    font-size: medium;
+    text-align: center;
+  }
+  .menuH1{
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+  }
+.pasta{
+    background-color: white;
+}
+#pastaH1{
+    padding-top: 30px;
+}
+.new{
+    border-radius: 10px;
+    background: red;
+    margin-left: 10px;
+
+    font-size: medium;
+    padding: 5px;
+    width: 25px;
+    height: 20px;
+}
+#specialsH1{
+    margin-top: 30px;
+}
+.specials{
+   background-color: white;
+}
