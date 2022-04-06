@@ -1,1 +1,0 @@
- <iframe width="300" height="250" frameborder="0" scrolling="no" src="https://www.bgmaps.com/link/map/3282ED9A68F4F2F3C75A8BB6CFCFEFAD"></iframe>       
