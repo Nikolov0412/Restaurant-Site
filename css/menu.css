@@ -1,8 +1,8 @@
+/* Menu Section styles
+    Main reusable styles
+*/
 #menu{
     padding-top: 40px;
-  }
-  .sides{
-    background-color: white;
   }
   .dishName{
 padding: 32px;
@@ -26,18 +26,7 @@ font-size: x-large;
     font-size: medium;
     text-align: center;
   }
-  .menuH1{
-    text-align: center;
-    padding-bottom: 40px;
-    color: white;
-  }
-.pasta{
-    background-color: white;
-}
-#pastaH1{
-    padding-top: 30px;
-}
-.new{
+  .new{
     border-radius: 10px;
     background: red;
     margin-left: 10px;
@@ -47,9 +36,24 @@ font-size: x-large;
     width: 25px;
     height: 20px;
 }
+  .menuH1{
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+  }
+  /* Menu Category styles*/
+.sides{
+    background-color: white;
+  }
+.specials{
+    background-color: white;
+ }
+.pasta{
+    background-color: white;
+}
+#pastaH1{
+    padding-top: 30px;
+}
 #specialsH1{
     margin-top: 30px;
-}
-.specials{
-   background-color: white;
 }

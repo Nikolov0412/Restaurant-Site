@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+/*Main footer styles*/
 .footer{
 	background: #12100E ;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -16,12 +17,14 @@
 	vertical-align: top;
 }
 
-
+/* Left footer styles*/
 .footer .footer-left{
 	width: 40%;
     padding-top:80px;
 }
-
+.footer-left .footer-logo{
+left: 50%;
+}
 
 .footer .footer-links{
 	color:  #ffffff;
@@ -45,7 +48,7 @@
 }
 
 
-
+/* Center footer styles*/
 .footer .footer-center{
 	width: 35%;
     padding-top:70px;
@@ -98,6 +101,7 @@
   content: none;
 }
 
+/* Right footer styles*/
 
 .footer .footer-right{
 	width: 20%;
@@ -141,6 +145,7 @@
     color: #fafafa;
 }
 
+/* Query for small width screens */
 @media (max-width: 880px) {
 
 	.footer{

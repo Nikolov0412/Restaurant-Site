@@ -8,5 +8,5 @@ function scrollTo(element, to, duration) {
         if (element.scrollTop === to) return;
         scrollTo(element, to, duration - 10);
     }, 10);
-     
+
 }
