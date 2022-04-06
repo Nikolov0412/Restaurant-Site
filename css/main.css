@@ -37,7 +37,7 @@ section.page{
     background-color: #12100E;
     transition: background-color 200ms linear;
   }
-  #navLink{
+  .navLink{
     margin-top: 13px;
     margin-left: 20px;
   }
@@ -55,14 +55,14 @@ section.page{
   }
 
   /* Home Section styles*/
-#logoWrapper{
+.logoWrapper{
     position: absolute;
 left: 50%;
 top: 50%;
 transform: translate(-50%, -50%);
 padding: 20px;
 }
-  #arrowD{
+  .arrowD{
 margin-left: 240px;
 margin-top: 240px;
   }
@@ -82,10 +82,10 @@ margin-top: 240px;
     img{
         width: 330px;
     }
-    #arrowD{
+    .arrowD{
         margin-left: 150px;
     }
-    #navLogo{
+    .navLogo{
       display:none
     }
     }
