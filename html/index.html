@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/carousel.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../js/colorChange.js"></script>
     <script src="../js/scrollTo.js"></script>
+    <script src="../js/carousel.js"></script>
 
 </head>
 <header id="home" class="header">
     <nav class="navbar" id="navbar">
-        <a href="#home" class="navLogo"><img src='../images/LogoMin.svg'/></a>
+        <a href="#home" class="navLogo"><img src='../images/LogoMin.svg' class='navLogo'/></a>
         <a href="#home" class="navLink">Home</a>
         <a href="#about" class="navLink">About</a>
         <a href="#menu" class="navLink">Menu</a>
@@ -107,8 +109,47 @@
 
     </section>
     <section class="page" id="gallery">
+        <div class="paddingTop"></div>
+        <div class="slideshow-container fade">
 
+            <!-- Full images with numbers and message Info -->
+            <div class="Containers">
+              <div class="MessageInfo">1 / 4</div>
+              <img src="../images/carousel/picture1.jpg" style="width:100%">
+              <div class="Info">Location 1</div>
+            </div>
 
+            <div class="Containers">
+              <div class="MessageInfo">2 / 4</div>
+              <img src="../images/carousel/picture2.jpg" style="width:100%">
+              <div class="Info">Location 2</div>
+            </div>
+
+            <div class="Containers">
+              <div class="MessageInfo">3 / 4</div>
+              <img src="../images/carousel/picture3.jpg" style="width:100%">
+              <div class="Info">Location 3</div>
+            </div>
+            <div class="Containers">
+                <div class="MessageInfo">4 / 4</div>
+                <img src="../images/carousel/picture4.jpg" style="width:100%">
+                <div class="Info">Location 4</div>
+              </div>
+
+            <!-- Back and forward buttons -->
+            <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+
+          <!-- The circles/dots -->
+          <div style="text-align:center">
+            <span class="dots" onclick="currentSlide(1)"></span>
+            <span class="dots" onclick="currentSlide(2)"></span>
+            <span class="dots" onclick="currentSlide(3)"></span>
+            <span class="dots" onclick="currentSlide(4)"></span>
+          </div>
+<div class="paddingBottom"></div>
     </section>
 </body>
 <footer class="footer">
@@ -165,6 +206,5 @@
         </div>
 
     </div>
-
 </footer>
 </html>

@@ -86,6 +86,7 @@ margin-top: 240px;
         margin-left: 150px;
     }
     .navLogo{
-      display:none
+      display:none !important;
+
     }
     }
